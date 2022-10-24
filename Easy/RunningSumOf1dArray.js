@@ -26,7 +26,7 @@ Output: [3,4,6,16,17]
  */
 
 const arr = [1, 2, 3, 4];
-let temp;
+
 function runningSum(nums) {
   let results = [];
   results[0] = nums[0];
@@ -38,6 +38,15 @@ function runningSum(nums) {
   return results;
 }
 
-console.log(runningSum(arr));
+// similar less code solution
 
+function runningSum(nums) {
+  for (let i = 1; i < nums.length; i++) {
+    nums[i] +=  nums[i - 1];
+  }
+
+  return nums;
+}
+
+console.log(runningSum(arr));
 
