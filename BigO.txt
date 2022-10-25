@@ -1,0 +1,16 @@
+Big O Notation
+
+1 linear time O(n) - as n increases, run time increases
+2 constant time O(1) - as n increases, run time doesnt increase
+3 quadratic time (n^2) - as n increase, run time doubles
+Ex: 1
+T = a(n) + b = O(n) *(a & b) are constants, meaning they don't grow
+    - find the fastest growing term - a(n)
+    - take out the coeffient - n
+
+
+Ex: 2
+T = cn^2 + dn + e = O(n^2) * (e) is a constant
+    - find the fastest growing term - cn^2
+    - take out the coeffient - n^2
+
