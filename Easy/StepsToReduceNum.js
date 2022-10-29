@@ -22,6 +22,8 @@ Step 6) 1 is odd; subtract 1 and obtain 0.
 // use modulo to check even & odd
 // calculate & break when n = 0
 
+// * not optimal solution
+
 const steps = (n) => {
   let stp = 0;
   let new_n = n;
